@@ -1,23 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
+  let playerName = "Player";
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>SPACE<br></br>GATHERING</h1>
+        
+        
+        <div>
+          <label htmlFor="playerName">Enter Your Name Below</label><br></br>
+          <input id="playerName" placeholder={playerName}></input><br></br><br></br>
+          <a href="#" className="playButton">PLAY</a>
+        </div>
       </header>
     </div>
   );
