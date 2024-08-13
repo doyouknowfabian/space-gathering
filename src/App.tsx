@@ -14,7 +14,7 @@ function App() {
         <div>
           <label htmlFor="playerName">Enter Your Name Below</label><br></br>
           <input id="playerName" placeholder={playerName}></input><br></br><br></br>
-          <a href="#" className="myButton">PLAY</a>
+          <a href="#" className="playButton">PLAY</a>
         </div>
       </header>
     </div>
