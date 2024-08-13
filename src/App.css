@@ -13,6 +13,7 @@
   }
 }
 
+
 .myButton {
 	background-color:#44c767;
 	border-radius:28px;
@@ -57,6 +58,7 @@
     -1px -1px 0 #000000,
     1px -1px 0 #000000;
   font-style: normal;
+
 }
 
 .App-link {
